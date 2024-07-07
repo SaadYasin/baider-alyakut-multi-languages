@@ -1,0 +1,57 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply font-secondary text-[22px] text-secondary;
+}
+
+a {
+  @apply text-[18px] hover:text-accent transition-all duration-300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-primary text-primary;
+}
+
+.h1 {
+  @apply text-[30px] lg:text-[48px] font-bold leading-none;
+}
+
+.h2 {
+  @apply text-[24px] xl:text-[36px] leading-tight;
+}
+
+.h3 {
+  @apply text-[18px] xl:text-[25px];
+}
+
+.btn {
+  @apply h-[45px] text-[18px] px-[20px] xl:text-[24px] xl:h-[65px] transition-all duration-300 text-white rounded-[8px] flex items-center gap-2;
+}
+
+.btn-submit {
+  @apply h-[35px] text-[18px] px-[20px] xl:text-[20px] xl:h-[45px] transition-all duration-300 text-white rounded-[8px] flex items-center gap-2;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-primary-hover;
+}
+
+.btn-accent {
+  @apply bg-accent hover:bg-accent-hover;
+}
+
+.nav-is-open {
+  @apply h-[350px] p-6;
+}
+
+/* Swiper Pagination */
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  @apply bg-primary;
+}

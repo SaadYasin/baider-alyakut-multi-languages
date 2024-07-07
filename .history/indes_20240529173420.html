@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interno</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./dist/output.css">
+
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+<body class="bg-gray-100">
+  <!-- HEADER -->
+  <header class="sticky top-0 h-[90px] shadow-xl bg-white z-30">
+    <div class="container mx-auto flex justify-between h-full items-center">
+      <!-- Logo -->
+      <a href="#">
+        <img src="assets/logo.svg" alt="Interno logo" class="hover:opacity-70">
+      </a>
+
+      <!-- Nav menu -->
+      <nav>
+
+        <!-- Mobile menu button -->
+        <div class="cursor-pointer lg:hidden" id="nav-trigger-btn">
+          <i class="ri-menu-4-line text-4xl text-primary"></i>
+        </div>
+
+        <ul class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300"
+        id="nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Our Work</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Page wrapper -->
+  <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
+
+    <!-- Grid img -->
+    <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10"></div>
+    
+    <!-- Hero -->
+    <section class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg-bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
+      <div class="container mx-auto h-full flex items-center justify-center xl:justify-start">
+        <!-- Text -->
+        <div class="hero-text w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start">
+          <h1 class="h1 mb-8">Let Your Home Be Unique</h1>
+          <p class="mb-8">There are many variations of the passages of lorem Ipsum from available,variations of the passages."</p>
+
+          <!-- Button -->
+          <button class="btn btn-primary">Get free estimation
+            <i class="ri-arrow-right-line text-accent"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Steps -->
+    <section class="steps mt-[80px] xl:mt-[200px] relative z-20">
+      <div class="container mx-auto">
+        <!-- Grid items -->
+        <div class="grid grid-cols-1 gap-12 xl:grid-cols-3">
+          
+          <!-- Step 1 start -->
+          <div class="steps__step text-center">
+            <div class="mb-4">
+              <i class="ri-compasses-2-line text-5xl text-accent"></i>
+            </div>
+            <h3 class="h3 mb-5">Project Planning</h3>
+
+            <p class="mb-5 max-w-md mx-auto">There are many variations of the passages of lorem Ipsum from available, majority.</p>
+            <a href="#" class="flex justify-center gap-2 font-medium hover:text-accent-hover">
+              Read more
+              <i class="ri-arrow-right-line text-accent"></i>
+            </a>
+          </div>
+          <!-- Step 1 end -->
+
+          <!-- Step 2 start -->
+          <div class="steps__step text-center">
+            <div class="mb-4">
+              <i class="ri-magic-line text-5xl text-accent"></i>
+            </div>
+            <h3 class="h3 mb-5">Gaining Materials</h3>
+          
+            <p class="mb-5 max-w-md mx-auto">There are many variations of the passages of lorem Ipsum from available, majority.
+            </p>
+            <a href="#" class="flex justify-center gap-2 font-medium hover:text-accent-hover">
+              Read more
+              <i class="ri-arrow-right-line text-accent"></i>
+            </a>
+          </div>
+          <!-- Step 2 end -->
+
+          <!-- Step 3 start -->
+          <div class="steps__step text-center">
+            <div class="mb-4">
+              <i class="ri-tools-line text-5xl text-accent"></i>
+            </div>
+            <h3 class="h3 mb-5">Project Execution</h3>
+          
+            <p class="mb-5 max-w-md mx-auto">There are many variations of the passages of lorem Ipsum from available, majority.
+            </p>
+            <a href="#" class="flex justify-center gap-2 font-medium hover:text-accent-hover">
+              Read more
+              <i class="ri-arrow-right-line text-accent"></i>
+            </a>
+          </div>
+          <!-- Step 3 end -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about mt-[80px] xl:mt-[200px] relative z-20">
+      <div class="container mx-auto xl:px-0">
+        <div class="flex flex-col xl:flex-row text-center xl:text-left justify-between items-center gap-8 xl:gap-[74px]">
+
+          <!-- Text -->
+          <div class="flex-1 order-2 xl:order-none max-w-xl xl:max-w-[410px] flex flex-col items-center xl:items-start gap-8">
+            <h2 class="h2">We Create The Art Of Stylish Living Stylishly</h2>
+            <p>It is a long established fact that a reader will be distracted by the of readable content of a page
+            when looking at its layouts the points of using
+            that it has a more-or-less normal.</p>
+
+            <!-- Phone -->
+            <div>
+              <div class="bg-acc"></div>
+            </div>
+          </div>
+
+          <!-- Image -->
+          <div class="about__img order-1 xl:order-none max-w-[453px] mx-auto xl:max-w-none xl:mx-0">
+            <img src="assets/about/img.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Temporary div -->
+    <div class="h-[3000px]"></div>
+
+  </main>
+
+  <!-- Scroll Reveal -->
+  <script src="js/scrollreveal.min.js"></script>
+
+  <!-- Swiper -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
