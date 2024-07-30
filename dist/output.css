@@ -1120,6 +1120,10 @@ video {
   padding-top: 40px;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1176,6 +1180,11 @@ video {
 
 .text-\[36px\] {
   font-size: 36px;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-sm {
