@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baider Alyakut Contracting - شركة بيدر الياقوت للمقاولات</title>
+
+  <script type="application/ld+json">
+      {
+        "@context" : "https://baideralyakut.com",
+        "@type" : "WebSite",
+        "name" : "baider alyakut contracting",
+        "alternateName" : "شركة بيدر الياقوت للمقاولات",
+        "url" : "https://baideralyakut.com",
+      }
+    </script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./dist/output.css">
+
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+
+  <!-- SWIPER CSS -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header id="header" class="sticky top-0 h-[90px] shadow-xl bg-white z-30">
+    <div class="container mx-auto flex justify-between h-full items-center">
+      <!-- Logo -->
+      <a href="#hero" aria-label="Link to hero section">
+        <img src="assets/baider-alyakut-logo.png" alt="Interno logo"
+          class=" w-[80px] h-[70px] hover:opacity-70 xl:w-auto">
+      </a>
+
+      <!-- Nav menu -->
+      <nav>
+        <!-- Mobile menu button -->
+        <div class="cursor-pointer lg:hidden" id="nav-trigger-btn">
+          <i class="ri-menu-4-line text-4xl text-primary"></i>
+        </div>
+
+        <!-- Menu items list -->
+        <ul
+          class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-2 lg:relative lg:flex-row lg:items-center lg:p-0 lg:top-0 lg:border-none lg:h-full lg:gap-10 transition-all duration-300"
+          id="nav-menu">
+          <li id="nav-item" class="font-semibold text-primary rtl:font-ara"><a href="#hero" data-i18n="home">Home</a></li>
+          <li id="nav-item" class="font-semibold text-primary rtl:font-ara"><a href="#about-us" data-i18n="about">About Us</a></li>
+          <li id="nav-item" class="font-semibold text-primary rtl:font-ara"><a href="#services" data-i18n="services">Services</a></li>
+          <li id="nav-item" class="font-semibold text-primary rtl:font-ara"><a href="#projects" data-i18n="projects">Our Projects</a>
+          </li>
+          <li id="nav-item" class="font-semibold text-primary rtl:font-ara"><a href="#stats" data-i18n="stats">Stats</a></li>
+          <li id="nav-item" class="font-semibold text-primary rtl:font-ara"><a href="#contact" data-i18n="contact">Contact</a></li>
+
+          <!-- Language selection -->
+          <div>
+            <select name="language" id="lang" class="bg-white text-[18px] font-secondary xl:ml-12 cursor-pointer">
+              <option value="en" selected data-i18n="english"
+                class="text-[18px] text-primary font-secondary hover:text-primary-hover">English</option>
+
+              <option value="ar" data-i18n="arabic"
+                class="text-[18px] text-primary font-secondary hover:text-primary-hover">Arabic
+              </option>
+            </select>
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <!-- Page wrapper -->
+  <main class="page-wrapper max-w-[1920px] mx-auto bg-darkBg overflow-hidden relative">
+    <!-- Image mobile mode -->
+    <img src="/assets/hero/hero-mobile.jpg" alt="Interno logo" class="w-auto h-[740px] absolute md:hidden">
+
+    <!-- Hero -->
+    <section id="hero"
+      class="hero h-[660px] xl:h-[840px] bg-contain bg-left-top xl:bg-center md:bg-hero lg:bg-cover bg-no-repeat bg-fixed xl:bg-cover xl:rounded-bl-[290px] relative scroll-pt-[90px] z-20">
+
+      <!-- Overlay -->
+      <div class="hero__overlay absolute lg:top-0 lg:bottom-0 lg:left-0 lg:right-0 bg-black/30 xl:rounded-bl-[290px]"></div>
+      <div class="container mx-auto h-full flex items-start justify-center pt-12 xl:justify-start">
+        <!-- Text -->
+        <div
+          class="hero__text w-[670px] flex flex-col items-start text-start xl:text-start xl:ms-[100px] lg:items-start">
+          <h1 id="title1"
+            class="text-[25px] text-white xl:text-[60px] font-primary font-bold leading-none mb-8 xl:rtl:text-[45px] rtl:font-ara rtl:leading-snug mt-11"
+            data-i18n="title1">Expertise in Design, Construction, and Full Labor Camps Facility Management, Steel Frames
+            & All Types of Buildings</h1>
+          <p id="pargr1" class="text-[16px] xl:text-[20px] text-white mb-8 rtl:font-ara" data-i18n="pargr1">Welcome to
+            BAIDER ALYAKUT, where we excel in designing, constructing, running, and maintaining high-standard labor
+            camps. Our expertise includes also all types of steel structures and concrete structures, interiors,
+            exteriors as well as all types of construction. Trust us to deliver comprehensive solutions.</p>
+
+          <!-- Action button -->
+          <a href="#contact"
+            class="h-[45px] text-[18px] rtl:font-ara p-[20px] xl:text-[20px] xl:h-[65px] transition-all duration-300 text-white rounded-[8px] flex items-center gap-2 btn-primary"
+            id="but1">
+            Contact Us Now
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Steps -->
+    <section id="how-we-work" class="steps bg-orange-100/50 h-content py-16 mt-[80px] xl:mt-[100px] relative z-20">
+      <div class="container flex flex-col items-center shadow-slate-500/20 shadow-md mx-auto">
+        <!-- Grid items -->
+        <h2 class="text-[36px] text-orange-600 text-center font-semibold mb-8 rtl:font-ara" data-i18n="title2">How we
+          work</h2>
+        <div class="grid grid-cols-1 gap-12 xl:grid-cols-3 ">
+
+          <!-- Step 1 start -->
+          <div class="steps__step w-[350px] bg-accent-secondary/50 p-4 text-center rounded-md shadow-xl">
+            <div class="mb-4">
+              <i class="ri-compasses-2-line text-5xl text-orange-700"></i>
+            </div>
+            <h3 class="h3 font-semibold mb-5 rtl:font-ara" data-i18n="step1">Project Design & Planning</h3>
+
+            <p class="text-[18px] text-justify text-gray-800 mb-5 max-w-md mx-auto rtl:font-ara" data-i18n="step1_p">Our
+              team begins by meticulously designing and planning your project, ensuring every detail aligns with your
+              requirements
+              and industry standards. We focus on creating efficient and sustainable designs that set the foundation for
+              successful
+              execution.</p>
+
+          </div>
+          <!-- Step 1 end -->
+
+          <!-- Step 2 start -->
+          <div class="steps__step w-[350px] bg-accent-secondary/50 p-4 text-center rounded-md shadow-xl">
+            <div class="mb-4">
+              <i class="ri-magic-line text-5xl text-orange-700"></i>
+            </div>
+            <h3 class="h3 font-semibold mb-5 rtl:font-ara" data-i18n="step2">Purchasing Materials</h3>
+
+            <p class="text-[18px] text-justify text-gray-800 mb-5 max-w-md mx-auto rtl:font-ara" data-i18n="step2_p">We
+              source top-quality materials from trusted suppliers, ensuring durability and compliance. Our transparent,
+              efficient
+              purchasing process guarantees all materials meet our rigorous standards for quality and reliability.
+            </p>
+
+          </div>
+          <!-- Step 2 end -->
+
+          <!-- Step 3 start -->
+          <div class="steps__step w-[350px] bg-accent-secondary/50 p-4 text-center rounded-md shadow-xl">
+            <div class="mb-4">
+              <i class="ri-tools-line text-5xl text-orange-700"></i>
+            </div>
+            <h3 class="h3 font-semibold mb-5 rtl:font-ara" data-i18n="step3">Project Execution</h3>
+
+            <p class="text-[18px] text-justify text-gray-800 mb-5 max-w-md mx-auto rtl:font-ara" data-i18n="step3_p">
+              With thorough planning and top-quality materials in place, our skilled professionals execute the project
+              with precision
+              and expertise. We manage every aspect of the construction process, delivering exceptional results on time
+              and within budget.
+            </p>
+
+          </div>
+          <!-- Step 3 end -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about mt-[80px] xl:mt-[100px] relative z-20">
+      <div class="container mx-auto xl:px-0">
+        <h2 id="about-us" class="text-[35px] text-accent-secondary text-center font-semibold mb-16 rtl:font-ara"
+          data-i18n="we">Who We Are</h2>
+        <div
+          class="flex flex-col xl:flex-row text-center xl:text-left justify-between items-center gap-8 xl:gap-[74px]">
+
+
+          <!-- Text -->
+          <div
+            class="about__text flex-1 order-2 xl:order-none max-w-xl xl:max-w-[410px] flex flex-col items-center xl:items-start gap-8">
+            <h2 class="h2 text-accent-secondary font-semibold rtl:font-ara text-start" data-i18n="we_head">We are one of
+              Iraq’s premier local general contractor</h2>
+            <p class="text-xl text-accent-secondary text-justify " data-i18n="we_p">We are specialized in designing,
+              constructing, and managing high quality labour camps, with a very good history in designing and whole
+              package construction of office buildings, commercial buildings and industrial steel structure projects,
+              including interior works and MEP services. Whether a design-build, negotiated or hard bid project, our
+              Company continually meets and exceeds our customers expectations of safety, quality, schedule and budget.
+            </p>
+
+            <!-- Phone -->
+            <div class="flex items-center justify-center xl:justify-start gap-4">
+              <!-- <div class="bg-accent/15 w-[75px] h-[75px] rounded-full flex justify-center items-center">
+                <i class="ri-phone-fill text-orange-600 text-4xl"></i>
+              </div> -->
+              <div class="text-start text-orange-400 ms-[30px]">
+                <p data-i18n="address_p1">Zayona / Al Jazaeer Street.</p>
+                <p data-i18n="address_p2">Dist. 714 / Nearby Alshaab football stadium / Baghdad, Iraq</p>
+                <div class="text-white text-start">
+                  <p>info@baideralyakut.com</p>
+                  <p class="[dir:rtl]" data-i18n="tel_1">(+964) 07702 626 770</p>
+                  <p class="[dir:rtl]" data-i18n="tel_2">(+964) 07901 369 370</p>
+                  <p class="[dir:rtl]" data-i18n="tel_3">(+964) 07904 761 303</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="flex flex-col text-start gap-1 ms-0">
+              <div data-i18n="we_foot1" class="text-xl text-orange-600 mt-8">Stay in touch - Call Us Anytime</div>
+              <div data-i18n="we_foot2" class="text-xl text-orange-600 ">Or Email us on: </div>
+              <span class="text-sky-200 underline">info@baideralyakut.com</span>
+            </div>
+          </div>
+
+          <!-- Image -->
+          <div class="about__img order-1 xl:order-none max-w-[453px] mx-auto xl:max-w-none xl:mx-0">
+            <img src="assets/about/jornalists-building001.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services mt-[80px] xl:mt-[200px] scroll-pt-[90px] relative z-20">
+      <div class="services__bg container w-full mx-auto bg-accent-secondary rounded-[10px] px-6">
+        <div class="flex flex-col items-center pt-[40px] pb-[40px]">
+          <h2 class="services__title h2 font-medium rtl:font-ara rtl:text-[25px] text-center" data-i18n="services_head">
+            Our Services
+          </h2>
+        </div>
+
+        <!-- Slider -->
+        <div class="w-full">
+          <div class="services__slider swiper h-[600px]">
+            <div class="swiper-wrapper">
+
+              <!-- Slide 1 start -->
+              <div class="swiper-slide">
+                <!-- item -->
+                <div
+                  class="services__item w-[330px] max-w-[420px] h-[540px] bg-white rounded-[20px] flex flex-col items-center p-4 mx-auto shadow-lg">
+
+                  <img class="w-full rounded-tr-[10px] rounded-tl-[10px]" src="assets/services/labor-camps.jpg" alt="">
+                  <p class="text-[20px] font-secondary rtl:font-ara rtl:text-[16px] mt-8 " data-i18n="services_p1">
+                    Designing, constructing, running, and maintaining high-standard labor camps, we provide the best
+                    living conditions, fostering productivity, well-being, and ensuring a comfortable, safe environment
+                    for all occupant.</p>
+                </div>
+              </div>
+              <!-- slide 1 end -->
+
+              <!-- Slide 2 start -->
+              <div class="swiper-slide">
+                <!-- item -->
+                <div
+                  class="services__item w-[330px] max-w-[420px] h-[540px] bg-white rounded-[20px] flex flex-col items-center p-4 mx-auto shadow-lg">
+
+                  <img class="w-full rounded-tr-[10px] rounded-tl-[10px]"
+                    src="assets/work/steel-structure-1199x800_s.jpg" alt="">
+                  <p class="text-[20px] font-secondary rtl:font-ara rtl:text-[16px] mt-8" data-i18n="services_p2">We
+                    specialize in multistory steel structure buildings, steel structure warehouses, steel structure
+                    factories, and steel
+                    supporting structures, delivering durable and efficient solutions for various industrial needs.</p>
+                </div>
+              </div>
+              <!-- slide 2 end -->
+
+              <!-- Slide 3 start -->
+              <div class="swiper-slide">
+                <!-- item -->
+                <div
+                  class="services__item w-[330px] h-[540px] bg-white rounded-[20px] flex flex-col items-center p-4 mx-auto shadow-lg">
+                  <div class="flex gap-4"></div>
+                  <img class="w-full rounded-tr-[10px] rounded-tl-[10px]" src="assets/services/interiors001.jpg" alt="">
+                  <p class="text-[20px] font-secondary rtl:font-ara rtl:text-[16px] mt-8" data-i18n="services_p3">We
+                    provide comprehensive interior finishing and furnishing services, transforming spaces with
+                    high-quality craftsmanship
+                    and stylish, functional designs.</p>
+                </div>
+              </div>
+              <!-- slide 3 end -->
+
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="projects" class="work mt-[80px] xl:mt-[150px] scroll-pt-[90px] relative z-20">
+      <div class="container mx-auto xl:px-0">
+
+        <!-- Work heading -->
+        <div class="text-center mb-[40px]">
+          <h2 class="work__title h2 text-accent-secondary font-medium rtl:font-ara mb-4" data-i18n="projects">Some of
+            Our Projects</h2>
+          <p class="work__subtitle text-[18px] font-medium text-accent-secondary text-justify max-w-3xl mx-auto"
+            data-i18n="projects_p">Explore our portfolio of successful projects showcasing our expertise in design,
+            construction, and maintenance. Each
+            project reflects our commitment to quality, innovation, and client satisfaction across diverse industries
+            and
+            requirements. The majority of our projects are design and build</p>
+        </div>
+
+        <!-- Grid -->
+        <div class="work__grid grid grid-cols-1 xl:grid-cols-2 gap-x-[104px] gap-y-[56px]">
+
+          <!-- Projects cards section start -->
+          <!-- item 1 start-->
+          <div class="w-full max-w-[548px] h-full mx-auto">
+
+            <img src="assets/about/jornalists-building001.jpg" alt=""
+              class="border-8 border-accent-secondary rounded-t mb-2">
+            <div class="flex items-center justify-between w-full">
+              <div>
+                <h3 class="h3 text-accent-secondary rtl:font-ara" data-i18n="project1">Iraqi Journalists
+                  Syndicate/Baghdad</h3>
+                <a target="_blank" href="project1.html" class="text-[20px] text-sky-200 underline"
+                  data-i18n="project_more">more info</a>
+              </div>
+            </div>
+          </div>
+          <!-- item 1 end-->
+
+          <!-- item 2 start-->
+          <div class="w-full max-w-[548px] h-full mx-auto">
+
+            <img src="assets/work/resturant001-sayyad_s.jpg" alt=""
+              class="border-8 border-accent-secondary rounded-t shadow-md mb-2">
+            <div class="flex items-center justify-between w-full">
+              <div>
+                <h3 class="h3 text-accent-secondary rtl:font-ara" data-i18n="project2">Modern Restaurant/Fisherman Story
+                </h3>
+                <a target="_blank" href="project2.html" class="text-[20px] text-sky-200 underline"
+                  data-i18n="project_more">more info</a>
+              </div>
+            </div>
+          </div>
+          <!-- item 2 end-->
+
+          <!-- item 3 start-->
+          <div class="w-full max-w-[548px] h-full mx-auto">
+
+            <img src="assets/work/gable-frame-najaf_s.jpg" alt=""
+              class="border-8 border-accent-secondary rounded-t shadow-md mb-2">
+            <div class="flex items-center justify-between w-full">
+              <div>
+                <h3 class="h3 text-accent-secondary rtl:font-ara" data-i18n="project3">Gable Frame Factory/Najaf</h3>
+                <a target="_blank" href="project3.html" class="text-[20px] text-sky-200 underline"
+                  data-i18n="project_more">more info</a>
+              </div>
+            </div>
+          </div>
+          <!-- item 3 end-->
+
+          <!-- item 4 start-->
+          <div class="w-full max-w-[548px] h-full mx-auto">
+
+            <img src="assets/toyota/toyota7.jpeg" alt=""
+              class="border-8 border-accent-secondary rounded-t shadow-md mb-2">
+            <div class="flex items-center justify-between w-full">
+              <div>
+                <h3 class="h3 text-accent-secondary rtl:font-ara" data-i18n="project4">Toyota Both Baghdad Exhibition
+                </h3>
+                <a target="_blank" href="project4.html" class="text-[20px] text-sky-200 underline"
+                  data-i18n="project_more">more info</a>
+              </div>
+            </div>
+          </div>
+          <!-- item 4 end-->
+
+          <!-- item 5 start-->
+          <div class="w-full max-w-[548px] h-full mx-auto">
+
+            <img src="assets/work/alsayyad-interior001_s.jpg" alt=""
+              class="border-8 border-accent-secondary rounded-t shadow-md mb-2">
+            <div class="flex items-center justify-between w-full">
+              <div>
+                <h3 class="h3 text-accent-secondary rtl:font-ara" data-i18n="project5">Modern Restaurant/Interior</h3>
+                <a href="#projects" class="text-[20px] text-sky-200 underline"
+                  data-i18n="project_more">more info</a>
+              </div>
+            </div>
+          </div>
+          <!-- item 5 end-->
+
+          <!-- item 6 start-->
+          <div class="w-full max-w-[548px] h-full mx-auto">
+
+            <img src="assets/work/grill-shade-journalists_s.jpg" alt=""
+              class="border-8 border-accent-secondary rounded-t shadow-md mb-2">
+            <div class="flex items-center justify-between w-full">
+              <div>
+                <h3 class="h3 text-accent-secondary rtl:font-ara" data-i18n="project6">Open Air Stage Grilled Shade/
+                </h3>
+                <h3 class="h3 text-accent-secondary rtl:font-ara" data-i18n="project6_a">Iraqi Journalists Syndicate
+                </h3>
+                <a target="_blank" href="project6.html" class="text-[20px] text-sky-200 underline"
+                  data-i18n="project_more">more info</a>
+              </div>
+            </div>
+          </div>
+          <!-- item 6 end-->
+
+          <!-- item 7 start-->
+          <div class="w-full max-w-[548px] h-full mx-auto">
+
+            <img src="assets/work/journalista-building-modifications_s.jpg" alt=""
+              class="border-8 border-accent-secondary rounded-t shadow-md mb-2">
+            <div class="flex items-center justify-between w-full">
+              <div>
+                <h3 class="h3 text-accent-secondary rtl:font-ara" data-i18n="project7">Old Iraqi Journalists Syndicate-
+                </h3>
+                <h3 class="h3 text-accent-secondary rtl:font-ara" data-i18n="project7_a">Exterior Renovation</h3>
+                <a target="_blank" href="project7.html" class="text-[20px] text-sky-200 underline"
+                  data-i18n="project_more">more info</a>
+              </div>
+            </div>
+          </div>
+          <!-- item 7 end-->
+
+          <!-- item 8 start-->
+          <div class="w-full max-w-[548px] h-full mx-auto">
+
+            <img src="assets/work/journalists-parking_s.jpg" alt=""
+              class="border-8 border-accent-secondary rounded-t shadow-md mb-2">
+            <div class="flex items-center justify-between w-full">
+              <div>
+                <h3 class="h3 text-accent-secondary rtl:font-ara" data-i18n="project8">Journalists Syndicate-Parking
+                  Shades</h3>
+                <a href="#projects" class="text-[20px] text-sky-200 underline" data-i18n="project_more">more info</a>
+              </div>
+            </div>
+          </div>
+          <!-- item 8 end-->
+
+          <!-- item 9 start-->
+          <div class="w-full max-w-[548px] h-full mx-auto">
+
+            <img src="assets/work/ac-steel-base_s.jpg" alt=""
+              class="border-8 border-accent-secondary rounded-t shadow-md mb-2">
+            <div class="flex items-center justify-between w-full">
+              <div>
+                <h3 class="h3 text-accent-secondary rtl:font-ara" data-i18n="project9">AC System steel Support Platform
+                </h3>
+                <a target="_blank" href="project9.html" class="text-[20px] text-sky-200 underline"
+                  data-i18n="project_more">more info</a>
+              </div>
+
+
+            </div>
+          </div>
+          <!-- item 9 end-->
+
+          <!-- item 10 start-->
+          <div class="w-full max-w-[548px] h-full mx-auto">
+
+            <img src="assets/work/resturant_s.jpg" alt=""
+              class="border-8 border-accent-secondary rounded-t shadow-md mb-2">
+            <div class="flex items-center justify-between w-full">
+              <div>
+                <h3 class="h3 text-accent-secondary rtl:font-ara" data-i18n="project10">Private Airline VIP
+                  Building/Baghdad Airport</h3>
+                <a href="#projects" class="text-[20px] text-sky-200 underline" data-i18n="project_more">more info</a>
+              </div>
+            </div>
+          </div>
+          <!-- item 10 end-->
+
+          <!-- item 11 start-->
+          <div class="w-full max-w-[548px] h-full mx-auto">
+
+            <img src="assets/work/resturant-interior_s.jpg" alt=""
+              class="border-8 border-accent-secondary rounded-t shadow-md mb-2">
+            <div class="flex items-center justify-between w-full">
+              <div>
+                <h3 class="h3 text-accent-secondary rtl:font-ara" data-i18n="project11">Restaurant Interior</h3>
+                <a href="#projects" class="text-[20px] text-sky-200 underline" data-i18n="project_more">more info</a>
+              </div>
+            </div>
+          </div>
+          <!-- item 11 end-->
+
+          <!-- item 12 start-->
+          <div class="w-full max-w-[548px] h-full mx-auto">
+
+            <img src="assets/work/hall_s.jpg" alt="" class="border-8 border-accent-secondary rounded-t shadow-md mb-2">
+            <div class="flex items-center justify-between w-full">
+              <div>
+                <h3 class="h3 text-accent-secondary rtl:font-ara" data-i18n="project12">Meeting Hall/Trans World Private
+                  Bank</h3>
+                <a href="#projects" class="text-[20px] text-sky-200 underline" data-i18n="project_more">more info</a>
+              </div>
+            </div>
+          </div>
+          <!-- item 12 end-->
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section id="stats"
+      class="stats mt-[80px] xl:mt-[150px] relative bg-accent-secondary scroll-pt-[90px] py-[80px] z-20 xl:py-[150px]">
+      <div class="container mx-auto">
+        <!-- Grid -->
+        <div class="grid grid-cols-1 xl:grid-cols-4 gap-12">
+
+          <!-- grid item 1 start -->
+          <div class="stats__item text-center xl:border-r xl:border-accent">
+            <h3 class="h2 xl:h1 font-primary text-accent">14</h3>
+            <p data-i18n="experience">Years of Experience</p>
+          </div>
+          <!-- grid item 1 end -->
+
+          <!-- grid item 2 start -->
+          <div class="stats__item text-center xl:border-r xl:border-accent">
+            <h3 class="h2 xl:h1 font-primary text-accent">45</h3>
+            <p data-i18n="completed">Projects Completed</p>
+          </div>
+          <!-- grid item 2 end -->
+
+          <!-- grid item 3 start -->
+          <div class="stats__item text-center xl:border-r xl:border-accent">
+            <h3 class="h2 xl:h1 font-primary text-accent">3</h3>
+            <p data-i18n="active">Active Projects</p>
+          </div>
+          <!-- grid item 3 end -->
+
+          <!-- grid item 4 start -->
+          <div class="stats__item text-center">
+            <h3 class="h2 xl:h1 font-primary text-accent">65</h3>
+            <p data-i18n="happy">Happy Customers</p>
+          </div>
+          <!-- grid item 4 end -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section start -->
+    <section id="contact" class="contact mt-[80px] xl:mt-[80px] relative z-20">
+      <div class="contact__container container mx-auto bg-primary scroll-pt-[90px] sm:rounded-[20px] py-[20px]">
+
+        <div class="contact__text max-w-[640px] mx-auto text-center">
+          <h2 class="h2 text-white mb-4 " data-i18n="in_touch">Get in touch</h2>
+          <form action="" class="flex flex-col gap-2">
+
+            <div class="flex justify-between items-center gap-4 place-content-start">
+              <label for="your-name" class="text-lg text-white text-start rtl:font-ara rtl:text-sm" data-i18n="label_1">Your Name</label>
+            <span id="your-name-hint" class="input-hint text-[rem] text-gray-400">Example: jane Doe</span>
+            </div>
+            
+            <input type="text" name="name" id="your-name" aria-label="Your name" aria-describedby="your-name-hint"
+              class="text-[16px] p-2 rounded-[5px] placeholder:accent-slate-400 border-none focus:outline-none" required>
+
+            <label for="your-email" class="text-lg text-white text-start rtl:font-ara rtl:text-sm" data-i18n="label_2">Your Email</label>
+              <input type="email" name="email" id="your-email" aria-label="Your name"
+              class="text-[16px] p-2 rounded-[5px] placeholder:accent-slate-400 focus:outline-none" required>
+
+            <label for="txt-message" class="text-lg text-white text-start rtl:font-ara rtl:text-sm" data-i18n="label_3">Your Message</label>
+              <textarea name="message" id="txt-message"
+              class="text-[16px] h-[140px] px-2 py-1 rounded-[5px] placeholder:accent-slate-400 focus:border-2 focus:border-[#ff994f] focus:outline-none"
+              required></textarea>
+
+            <button type="submit" class="btn-submit btn-accent mx-auto" data-i18n="send">Submit
+              <i class="ri-arrow-right-line text-primary"></i>
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- Contact section end -->
+
+    <!-- Footer section start -->
+    <footer class="footer mt-[80px] xl:mt-[150px] relative z-20">
+      <div class="container xl:mx-auto px-0">
+        <div class="flex flex-col bg-[#829ead] xl:flex-row xl:justify-between xl:gap-[100px] xl:mb-0 xl:py-0">
+
+          <!-- Footer 2 -->
+          <div
+            class="flex-1 flex flex-col items-center text-white py-4 xl:flex-row xl:justify-between xl:mx-auto xl:text-center xl:px-20 xl:gap-[300px] ">
+            <div class="footer__item  xl:w-[300px]">
+              <ul class="flex flex-col mx-auto text-center gap-4">
+                <li><a href="#home" data-i18n="home">Home</a></li>
+                <li><a href="#about-us" data-i18n="about">About Us</a></li>
+                <li><a href="#services" data-i18n="services">Services</a></li>
+                <li><a href="#projects" data-i18n="projects">Projects</a></li>
+                <li><a href="#stats" data-i18n="stats">Stats</a></li>
+                <li><a href="#contact" data-i18n="contact">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__item  text-center mx-auto border-t xl:border-none px-10 py-4 mt-4 xl:mx-0 ">
+              <h3 class="h3 text-[20px] text-orange-300 font-bold rtl:font-ara mb-3 xl:text-start" data-i18n="contact">
+                Contacts</h3>
+              <div class="flex flex-col gap-3 text-[16px] text-start text-yellow-400 font-semibold mb-3">
+                <p data-i18n="address_p1">Zayona / Al Jazaeer Street.</p>
+                <p data-i18n="address_p2">Dist. 417 / Nearby Alshaab football stadium / Baghdad, Iraq</p>
+                <p>info@baideralyakut.com</p>
+                <p>(+964) 07702 626 770</p>
+                <p>(+964) 07901 369 370</p>
+                <p>(+964) 07904 761 303</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <p class="footer__copyright container mx-auto text-center text-sm text-gray-300 py-4 bg-primary"
+        data-i18n="copyright">Copyright© 2024 Baider Alyakut contracting. All rights reserved</p>
+    </footer>
+
+  </main>
+
+  <!-- Scroll Reveal -->
+  <script src="js/scrollreveal.min.js"></script>
+
+  <!-- Swiper -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- Main JS -->
+  <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
