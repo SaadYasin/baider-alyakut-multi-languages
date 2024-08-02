@@ -600,6 +600,10 @@ video {
   position: sticky;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -612,6 +616,10 @@ video {
   top: 0px;
 }
 
+.top-\[20px\] {
+  top: 20px;
+}
+
 .top-\[90px\] {
   top: 90px;
 }
@@ -622,6 +630,10 @@ video {
 
 .z-30 {
   z-index: 30;
+}
+
+.z-40 {
+  z-index: 40;
 }
 
 .order-1 {
@@ -745,10 +757,6 @@ video {
   height: 70px;
 }
 
-.h-\[740px\] {
-  height: 740px;
-}
-
 .h-\[75px\] {
   height: 75px;
 }
@@ -759,6 +767,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .max-h-screen {
@@ -801,10 +813,6 @@ video {
   width: 50%;
 }
 
-.w-\[670px\] {
-  width: 670px;
-}
-
 .w-\[75\%\] {
   width: 75%;
 }
@@ -823,6 +831,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .max-w-3xl {
@@ -1086,25 +1098,18 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
 .bg-fixed {
   background-attachment: fixed;
-}
-
-.bg-left-top {
-  background-position: left top;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-0 {
@@ -1261,8 +1266,8 @@ video {
   font-size: 20px;
 }
 
-.text-\[25px\] {
-  font-size: 25px;
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .text-\[35px\] {
@@ -1577,6 +1582,94 @@ h6 {
   padding: 1.5rem;
 }
 
+.slider{
+  width: 100vw;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img{
+  width: 100vw;
+  height: 100%;
+}
+
+/*css for manual slide navigation*/
+
+.navigation-manual{
+  position: absolute;
+  width: 100vw;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  /* margin-top: 460px; */
+  bottom: 40px;
+}
+
+.navigation-auto div{
+  border: 2px solid #ffffff;
+  padding: 4px;
+  border-radius: 10px;
+  transition: 1s;
+  margin-right: 20px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: #40D3DC;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: #40D3DC;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: #40D3DC;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: #40D3DC;
+}
+
 /* Swiper Pagination */
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
@@ -1625,6 +1718,11 @@ h6 {
   outline-offset: 2px;
 }
 
+.active\:border-\[\#ff994f\]:active {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 153 79 / var(--tw-border-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:rounded-\[20px\] {
     border-radius: 20px;
@@ -1634,10 +1732,6 @@ h6 {
 @media (min-width: 768px) {
   .md\:hidden {
     display: none;
-  }
-
-  .md\:bg-hero {
-    background-image: url('/assets/hero/hero02-02_s.jpg');
   }
 }
 
@@ -1698,10 +1792,6 @@ h6 {
     border-style: none;
   }
 
-  .lg\:bg-cover {
-    background-size: cover;
-  }
-
   .lg\:p-0 {
     padding: 0px;
   }
@@ -1729,6 +1819,10 @@ h6 {
 }
 
 @media (min-width: 1200px) {
+  .xl\:top-\[70px\] {
+    top: 70px;
+  }
+
   .xl\:order-none {
     order: 0;
   }
@@ -1785,6 +1879,10 @@ h6 {
 
   .xl\:w-\[300px\] {
     width: 300px;
+  }
+
+  .xl\:w-\[570px\] {
+    width: 570px;
   }
 
   .xl\:w-\[600px\] {
@@ -1847,10 +1945,6 @@ h6 {
     gap: 74px;
   }
 
-  .xl\:rounded-bl-\[290px\] {
-    border-bottom-left-radius: 290px;
-  }
-
   .xl\:border-r {
     border-right-width: 1px;
   }
@@ -1862,14 +1956,6 @@ h6 {
   .xl\:border-accent {
     --tw-border-opacity: 1;
     border-color: rgb(205 162 116 / var(--tw-border-opacity));
-  }
-
-  .xl\:bg-cover {
-    background-size: cover;
-  }
-
-  .xl\:bg-center {
-    background-position: center;
   }
 
   .xl\:px-0 {
@@ -1924,6 +2010,10 @@ h6 {
 
 .rtl\:text-\[16px\]:where([dir="rtl"], [dir="rtl"] *) {
   font-size: 16px;
+}
+
+.rtl\:text-\[1rem\]:where([dir="rtl"], [dir="rtl"] *) {
+  font-size: 1rem;
 }
 
 .rtl\:text-\[25px\]:where([dir="rtl"], [dir="rtl"] *) {

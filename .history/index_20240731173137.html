@@ -6,6 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Baider Alyakut Contracting - شركة بيدر الياقوت للمقاولات</title>
 
+  <script type="application/ld+json">
+      {
+        "@context" : "https://baideralyakut.com",
+        "@type" : "WebSite",
+        "name" : "baider alyakut contracting",
+        "alternateName" : "شركة بيدر الياقوت للمقاولات",
+        "url" : "https://baideralyakut.com",
+      }
+    </script>
+
   <!-- CSS -->
   <link rel="stylesheet" href="./dist/output.css">
 
@@ -76,66 +86,23 @@
   <!-- Page wrapper -->
   <main class="page-wrapper max-w-[1920px] mx-auto bg-darkBg overflow-hidden relative">
     <!-- Image mobile mode -->
-     <div class="w-auto h-[660px] bg-black/30 absolute top-0 z-40"></div>
-    <!-- <img src="/assets/hero/hero-mobile.jpg" alt="Interno logo" class="w-auto h-[660px] absolute z-30 md:hidden"> -->
+    <img src="/assets/hero/hero-mobile.jpg" alt="Interno logo" class="w-auto h-[740px] absolute md:hidden">
 
     <!-- Hero -->
     <section id="hero"
-      class="hero h-[660px] xl:h-[840px] xl-bg-cover relative scroll-pt-[90px] z-20">
-      <!--image slider start-->
-      <div class="slider">
-        <div class="slides bg-fixed top-0 bottom-0 left-0 right-0">
-          <!--radio buttons start-->
-          <input type="radio" name="radio-btn" id="radio1">
-          <input type="radio" name="radio-btn" id="radio2">
-          <input type="radio" name="radio-btn" id="radio3">
-          <input type="radio" name="radio-btn" id="radio4">
-          <!--radio buttons end-->
-          <!--slide images start-->
-          <div class="slide first">
-            <img src="./assets/hero/hero02-02.jpg" class="w-screen h-screen object-cover" alt="">
-          </div>
-          <div class="slide">
-            <img src="./assets/hero/steel-building01.jpg" class="w-screen h-screen object-cover" alt="">
-          </div>
-          <div class="slide">
-            <img src="./assets/hero/alsayyad.jpeg" class="w-screen h-screen object-cover" alt="">
-          </div>
-          <div class="slide">
-            <img src="./assets/hero/gable-frames.jpeg" class="w-screen h-screen object-cover" alt="">
-          </div>
-          <!--slide images end-->
-          <!--automatic navigation start-->
-          <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-          </div>
-          <!--automatic navigation end-->
-        </div>
-        <!--manual navigation start-->
-        <div class="navigation-manual">
-          <label for="radio1" class="manual-btn"></label>
-          <label for="radio2" class="manual-btn"></label>
-          <label for="radio3" class="manual-btn"></label>
-          <label for="radio4" class="manual-btn"></label>
-        </div>
-        <!--manual navigation end-->
-      </div>
-      <!--image slider end-->
+      class="hero h-[660px] xl:h-[840px] bg-contain bg-left-top xl:bg-center md:bg-hero lg:bg-cover bg-no-repeat bg-fixed xl:bg-cover xl:rounded-bl-[290px] relative scroll-pt-[90px] z-20">
 
       <!-- Overlay -->
-      <div class="hero__overlay absolute top-0 bottom-0 left-0 right-0 lg:top-0 lg:bottom-0 lg:left-0 lg:right-0 bg-black/30 "></div>
+      <div class="hero__overlay absolute lg:top-0 lg:bottom-0 lg:left-0 lg:right-0 bg-black/30 xl:rounded-bl-[290px]"></div>
       <div class="container mx-auto h-full flex items-start justify-center pt-12 xl:justify-start">
         <!-- Text -->
         <div
-          class="hero__text w-[350px] xl:w-[570px] flex flex-col items-start text-start xl:text-start xl:ms-[100px] lg:items-start absolute top-[20px] xl:top-[70px]">
+          class="hero__text w-[670px] flex flex-col items-start text-start xl:text-start xl:ms-[100px] lg:items-start">
           <h1 id="title1"
-            class="text-[30px] text-white xl:text-[60px] font-primary font-bold leading-none mb-8 xl:rtl:text-[45px] rtl:font-ara rtl:leading-snug mt-11"
+            class="text-[25px] text-white xl:text-[60px] font-primary font-bold leading-none mb-8 xl:rtl:text-[45px] rtl:font-ara rtl:leading-snug mt-11"
             data-i18n="title1">Expertise in Design, Construction, and Full Labor Camps Facility Management, Steel Frames
             & All Types of Buildings</h1>
-          <p id="pargr1" class="text-[18px] rtl:text-[1rem] xl:text-[20px] text-white mb-8 rtl:font-ara" data-i18n="pargr1">Welcome to
+          <p id="pargr1" class="text-[16px] xl:text-[20px] text-white mb-8 rtl:font-ara" data-i18n="pargr1">Welcome to
             BAIDER ALYAKUT, where we excel in designing, constructing, running, and maintaining high-standard labor
             camps. Our expertise includes also all types of steel structures and concrete structures, interiors,
             exteriors as well as all types of construction. Trust us to deliver comprehensive solutions.</p>
@@ -622,7 +589,7 @@
 
             <label for="txt-message" class="text-lg text-white text-start rtl:font-ara rtl:text-sm" data-i18n="label_4">Your Message</label>
               <textarea name="message" id="txt-message"
-              class="text-[16px] h-[140px] px-2 py-1 rounded-[5px] placeholder:accent-slate-400 focus:border-2 focus:border-[#ff994f] active:border-[#ff994f] focus:outline-none"
+              class="text-[16px] h-[140px] px-2 py-1 rounded-[5px] placeholder:accent-slate-400 focus:border-2 focus:border-[#ff994f] focus:outline-none"
               required></textarea>
 
             <button type="submit" class="btn-submit btn-accent mx-auto" data-i18n="send">Submit
@@ -630,9 +597,8 @@
           </form>
       </div>
 
-      <!-- <div id="status" class="success bg-lime-600 max-w-[500px] text-center text-white mt-12 mx-auto p-2 rounded-md">Success -->
-      </div>
-
+      <div id="status" class="success bg-lime-600 max-w-[500px] text-center text-white mt-12 mx-auto p-2 rounded-md">Success
+        
       </div>
     </section>
     <!-- Contact section end -->
@@ -647,7 +613,7 @@
             class="flex-1 flex flex-col items-center text-white py-4 xl:flex-row xl:justify-between xl:mx-auto xl:text-center xl:px-20 xl:gap-[300px] ">
             <div class="footer__item  xl:w-[300px]">
               <ul class="flex flex-col mx-auto text-center gap-4">
-                <li><a href="#hero" data-i18n="home">Home</a></li>
+                <li><a href="#home" data-i18n="home">Home</a></li>
                 <li><a href="#about-us" data-i18n="about">About Us</a></li>
                 <li><a href="#services" data-i18n="services">Services</a></li>
                 <li><a href="#projects" data-i18n="projects">Projects</a></li>
@@ -687,9 +653,6 @@
 
   <!-- Main JS -->
   <script src="js/main.js" type="module"></script>
-
-  <!-- Hero slider -->
-   <script src="./js/slider.js"></script>
 </body>
 
 </html>
